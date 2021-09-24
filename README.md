@@ -4,7 +4,7 @@ small repository containing utility things around the ublox ZED-F9P gnss receive
 
 ### How to use
 
-* connect ZED-F9P via USB-C cable
+* connect ZED-F9P via USB-C cable (should create /dev/ttyACM0)
 * `./setup.sh`
 * `./enter.sh`
 * in container type `./u-center.sh`
