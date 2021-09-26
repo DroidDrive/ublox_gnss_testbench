@@ -1,0 +1,13 @@
+# Config changes format version 1.0
+# created by u-center version 21.05 at 00:36:52 on Sunday, 26 Sep 2021
+[del]
+[set]
+  RAM CFG-MSGOUT-UBX_NAV_PVT_UART1 0x1                  # write value 1  0x1               to item id 0x20910007 in lay
+  BBR CFG-MSGOUT-UBX_NAV_PVT_UART1 0x1                  # write value 1  0x1               to item id 0x20910007 in lay
+Flash CFG-MSGOUT-UBX_NAV_PVT_UART1 0x1                  # write value 1  0x1               to item id 0x20910007 in lay
+  RAM CFG-MSGOUT-UBX_NAV_CLOCK_UART1 0x1                  # write value 1  0x1               to item id 0x20910066 in l
+  BBR CFG-MSGOUT-UBX_NAV_CLOCK_UART1 0x1                  # write value 1  0x1               to item id 0x20910066 in l
+Flash CFG-MSGOUT-UBX_NAV_CLOCK_UART1 0x1                  # write value 1  0x1               to item id 0x20910066 in l
+  RAM CFG-MSGOUT-UBX_NAV_STATUS_UART1 0x1                  # write value 1  0x1               to item id 0x2091001b in 
+  BBR CFG-MSGOUT-UBX_NAV_STATUS_UART1 0x1                  # write value 1  0x1               to item id 0x2091001b in 
+Flash CFG-MSGOUT-UBX_NAV_STATUS_UART1 0x1                  # write value 1  0x1               to item id 0x2091001b in 

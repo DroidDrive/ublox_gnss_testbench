@@ -19,5 +19,23 @@ small repository containing utility things around the ublox ZED-F9P gnss receive
 
 ## Misc
 
-This repository is utilizing wine-docker from https://hub.docker.com/r/scottyhardy/docker-wine/
+* This repository is utilizing wine-docker from https://hub.docker.com/r/scottyhardy/docker-wine/
 
+* you can use the `View->Generation 9 Configuration View to configure the ZED-F9P module properly`
+
+  * you can also save configuration steps (for multiple repeated config changes or other device)
+
+  * the same config view will show the UBX commands for configuring the ZED-F9P dynamically (at runtime) via UART
+
+    * for example setting some `CFG-MESSAGE-OUT`configurations for letting the module output specific `UBX` messages on the UART1, the tool will show (after configuring the values manually) the following:
+
+      * > Ram layer config message:
+        > b5 62 06 8a 13 00 00 01 00 00 07 00 91 20 01 66 00 91 20 01 1b 00 91 20 01 42 3d 
+        >
+        > BBR layer config message:
+        > b5 62 06 8a 13 00 00 02 00 00 07 00 91 20 01 66 00 91 20 01 1b 00 91 20 01 43 4f 
+        >
+        > Flash layer config message:
+        > b5 62 06 8a 13 00 00 04 00 00 07 00 91 20 01 66 00 91 20 01 1b 00 91 20 01 45 73
+
+* a rudimentary modm c++ driver implementation exists [here](https://github.com/DroidDrive/ublox_modm_example)
