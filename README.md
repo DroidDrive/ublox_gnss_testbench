@@ -1,6 +1,9 @@
 # ublox_gnss_testbench
 
-small repository containing utility things around the ublox ZED-F9P gnss receiver
+<img src="https://user-images.githubusercontent.com/6985609/135155169-c71afd49-5ff3-4587-a0c4-0e65e1860944.png" alt="Ducktrain Logo" width="30%" >
+
+This is a small repository containing utility things around the ublox ZED-F9P gnss receiver.
+
 
 ### How to use
 
